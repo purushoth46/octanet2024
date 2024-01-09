@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgba(73, 71, 71, 0.4),rgba(167, 162, 162, 0.5)),url(../image/pexels-james-wheeler-417074.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(101, 193, 132,0.9);
+    display: flex;
+    justify-content:space-between;
+    align-items:space-between;
+    padding-top: 10px;
+    padding-left:30px ;
+}
+.nav-bar h1{
+    font-size:15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: rgb(58, 54, 54);
+    width: 150px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 20px;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+
+}
+
+.logo i{
+    padding:0px 10px;
+    font-size: 1.3em;
+    color: rgba(248, 245, 21, 0.941);
+
+}
+.nav-bar ul{
+    display: flex;
+    justify-content:space-between;
+    align-items:space-between;
+    list-style-type: none;
+}
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size:1.5em;
+}
+.nav-bar ul li:hover{
+    background-color: #ff4da6;
+    padding-bottom: 7px;
+    transition: 1s ease-in-out;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#btn{
+    border: none;
+    margin-right: 30px;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#btn:hover{
+    background-color: rgba(255, 106, 0, 0.804);
+    transform: scale(1);
+    transition: ease-out;
+    box-shadow: 0 0 20px #92e72a;
+    color: #fff;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.home h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.2em;
+    padding: 20px;
+}
+.home h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+#btn1{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: aqua;
+    color: black;
+    transition:1s ease-in;
+}
